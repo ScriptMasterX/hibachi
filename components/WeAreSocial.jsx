@@ -7,19 +7,19 @@ export default function WeAreSocial() {
     <div id="Social">
       <h1>WE ARE SOCIAL</h1>
       <div className="socialVideosWrapper">
-        <video className="video vid1" controls autoplay muted playsinline>
+        <video className="video vid1" controls muted playsInline>
           <source src="/hibvid1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video className="video" controls autoplay muted playsinline>
+        <video className="video" controls muted playsInline>
           <source src="/hibvid2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video className="video" controls autoplay muted playsinline>
+        <video className="video" controls muted playsInline>
           <source src="/hibvid3.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video className="video" controls autoplay muted playsinline>
+        <video className="video" controls muted playsInline>
           <source src="/hibvid4.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

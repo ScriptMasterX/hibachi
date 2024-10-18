@@ -9,9 +9,9 @@ export default function Footer() {
         <div>
           <Link className="logo footerLogo">Let's Hibachi</Link>
           <div className="socialsWrapper">
-            <img className="facebook" src={"/public/facebook.png"} />
-            <img src={"/public/twitter.png"} />
-            <img src={"/public/tiktok.png"} />
+            <img className="facebook" src={"/facebook.png"} />
+            <img src={"/twitter.png"} />
+            <img src={"/tiktok.png"} />
           </div>
         </div>
         <div className="footerNavigation">
@@ -38,7 +38,7 @@ export default function Footer() {
           <h1>Text or Call Us</h1>
           <a href="tel:+12345678901" className="phoneNumber">
             <img
-              src={"/public/phone.png"}
+              src={"/phone.png"}
               className="phoneIcon"
               alt="Phone Icon"
             />
@@ -46,7 +46,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <h1 className="copyright">© 2024 Let's Hibachi | Website by Daniel </h1>
+      <h1 className="copyright">© 2024 Lets Hibachi | Website by Daniel </h1>
     </footer>
   );
 }

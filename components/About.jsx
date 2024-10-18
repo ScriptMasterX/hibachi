@@ -24,8 +24,8 @@ export default function About() {
           <p>Experience the magic of hibachi with us today!</p>
         </div>
         <div className="imagesWrapper">
-          <img className="aboutPicture" src={"/public/hibachiAbout.png"} />
-          <img className="aboutPicture2" src={"/public/hibachiAbout2.png"} />
+          <img className="aboutPicture" src={"/hibachiAbout.png"} />
+          <img className="aboutPicture2" src={"/hibachiAbout2.png"} />
         </div>
       </div>
     </div>

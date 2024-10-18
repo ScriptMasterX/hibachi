@@ -31,13 +31,7 @@ export default function Navbar() {
   return (
     <header id="navigationBar">
       <Link to="/" className="logo">
-        {/* <img
-          className="logo"
-          src={require("/public/hibachiLogo.png")}
-          height="150px"
-          width="150px"
-        /> */}
-        Let's Hibachi
+        Lets Hibachi
       </Link>
       <div className="extraLinks">
         <Link to="locations">LOCATIONS</Link>
@@ -56,7 +50,7 @@ export default function Navbar() {
           setDropState((prevState) => !prevState);
         }}
       >
-        <img src={"/public/hamburger2.png"} height="50px" width="50px" />
+        <img src={"/hamburger2.png"} height="50px" width="50px" />
       </a>
       <div
         className="darkOverlay"

@@ -16,7 +16,7 @@ export default function Services() {
       </h1>
       <div className="serviceBoxesWrapper">
         <div className="serviceBox">
-          <img src={"/public/dollar.png"} height="90px" width="90px" />
+          <img src={"/dollar.png"} height="90px" width="90px" />
           <h1>Pricing</h1>
           <p className="serviceNormalFont">
             $50.00 Per person / $500 Minimum for all parties*
@@ -24,12 +24,12 @@ export default function Services() {
           <p className="serviceNormalFont">$25.00 Per child 12 and under</p>
           <p className="serviceFontSpecial">We cook outside only.</p>
           <p className="serviceFontSmall">
-            We’re here rain or shine, as long as there's a dry spot for the chef
+            We&apos;re here rain or shine, as long as there&apos;s a dry spot for the chef
             to cook
           </p>
         </div>
         <div className="serviceBox">
-          <img src={"/public/utensils.png"} height="90px" width="90px" />
+          <img src={"/utensils.png"} height="90px" width="90px" />
           <h1>Protein Choices</h1>
           <p className="serviceNormalFont marginBottom20">2 Per Person</p>
           <p className="serviceNormalFont">
