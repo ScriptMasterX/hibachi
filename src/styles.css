@@ -772,6 +772,7 @@ input[type="time"]::-ms-reveal {
   letter-spacing: 1px;
 }
 .conditions {
+  padding: 30px;
   width: 750px;
   line-height: 25px;
 }
@@ -981,7 +982,7 @@ input[type="time"]::-ms-reveal {
     gap: 20px;
   }
   /* Book Styles */
-  .conditions, .send-button {
+  .conditions {
     width: 600px;
   }
 }
