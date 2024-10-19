@@ -10,7 +10,7 @@ export default function FAQ() {
         <div className="routeWrapper">
           <Link to="/">Home</Link>
           <h1>&gt;</h1>
-          <h1>FAQ</h1>
+          <h1>FAQs</h1>
         </div>
         <div>
           <h1 className="locationsTitle">Frequently Asked Questions</h1>
