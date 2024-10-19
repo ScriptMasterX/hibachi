@@ -539,7 +539,16 @@ textarea {
   color: #fff;
   letter-spacing: 1px;
 }
-
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Inverts the color to make it visible on a dark background */
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Inverts the color to make it visible on a dark background */
+}
+input[type="time"]::-ms-clear,
+input[type="time"]::-ms-reveal {
+    display: none; /* Hides the default icon in unsupported browsers */
+}
 .send-button {
   margin-top: 15px;
   height: 34px;
@@ -550,10 +559,11 @@ textarea {
   background: rgb(90, 74, 232);
   border: 2px solid white;
   cursor: pointer;
+  justify-content: center;
 }
 
 .alt-send-button {
-  width: 400px;
+  width: 100%;
   height: 34px;
   transition: all .2s ease-in-out;
 }
@@ -689,7 +699,7 @@ textarea {
 .send-text {
   padding-top: 4px;
 }
-.form-control {
+.form-control, .bookFormControl {
   width: 100%;
   height: 40px;
   padding: 5px 12px;
@@ -702,7 +712,81 @@ textarea {
 .form-textarea {
   height: 170px;
 }
-
+/* Book */
+.bookForm {
+  padding: 40px;
+  color: white;
+}
+.nameSectionWrapper {
+  display: flex;
+  gap: 10px;
+}
+.bookForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+.bookSecondSection {
+  width: 300px;
+}
+.bookDefaultInput {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid white;
+  outline: none;
+  text-align: center;
+}
+.bookDefaultInput:focus {
+  border-bottom: 3px solid white;
+}
+.fullName {
+  width: 700px;
+}
+.bookFormControl {
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.secondBookWrapper {
+  display: flex;
+  gap: 10px;
+  width: 610px;
+}
+.bookAddress {
+  width: 600px;
+}
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.longCheckBoxWrapper {
+  width: 700px;
+}
+.bookTextStyle {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+}
+.conditions {
+  width: 750px;
+  line-height: 25px;
+}
+.book-button {
+  width: 700px;
+  display: flex;
+}
+.reminders {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bookHeader {
+  margin-top: 20px;
+}
 /* Media Styles */
 @media only screen and (max-width: 1300px) {
   /* Navigation Bar */
@@ -896,6 +980,10 @@ textarea {
   .contact-wrapper {
     gap: 20px;
   }
+  /* Book Styles */
+  .conditions, .send-button {
+    width: 600px;
+  }
 }
 @media only screen and (max-width: 450px) {
   /* Navigation Bar */
@@ -990,6 +1078,31 @@ textarea {
   }
   .contact-text {
     margin-left: 15px;
+  }
+  /* Book Styles */
+  .fullName, .bookAddress {
+    width: 300px;
+  }
+  .secondBookWrapper {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  input {
+    text-overflow: ellipsis;
+  }
+  .longCheckBoxWrapper {
+    width: 100%;
+  }
+  .conditions {
+    width: 100%;
+    margin-left: 0;
+  }
+  .bookHeader {
+    text-align: center;
+  }
+  .send-button {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 350px) {

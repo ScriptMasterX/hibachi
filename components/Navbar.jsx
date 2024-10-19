@@ -38,7 +38,7 @@ export default function Navbar() {
         <Link to="gallery">GALLERY</Link>
         <Link to="faq">FAQ</Link>
         <Link to="contact">CONTACT</Link>
-        <Link className="book" to="/">
+        <Link className="book" to="book">
           BOOK NOW
         </Link>
       </div>
@@ -101,7 +101,7 @@ export default function Navbar() {
           </Link>
         </li>
         <hr />
-        <Link className="book mobileBook" to="/">
+        <Link className="book mobileBook" to="book">
           BOOK NOW
         </Link>
       </ul>

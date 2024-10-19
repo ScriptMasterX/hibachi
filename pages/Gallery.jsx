@@ -16,14 +16,14 @@ export default function Gallery() {
         </div>
       </div>
       <div className="galleryWrapper">
-        <img src={"/public/gallery1.png"} />
-        <img src={"/public/gallery2.png"} />
-        <img src={"/public/gallery3.png"} />
-        <img src={"/public/gallery4.png"} />
-        <img src={"/public/gallery5.png"} />
-        <img src={"/public/gallery6.png"} />
-        <img src={"/public/gallery7.png"} />
-        <img src={"/public/gallery8.png"} />
+        <img src={"/gallery1.png"} />
+        <img src={"/gallery2.png"} />
+        <img src={"/gallery3.png"} />
+        <img src={"/gallery4.png"} />
+        <img src={"/gallery5.png"} />
+        <img src={"/gallery6.png"} />
+        <img src={"/gallery7.png"} />
+        <img src={"/gallery8.png"} />
       </div>
     </div>
   );
